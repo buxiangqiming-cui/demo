@@ -9,9 +9,9 @@
   4. 不用 main 函数也能跑 —— 文件从上到下顺序执行
 """
 
-# ---- 1. 变量：不用写 int / double / char* ----
+# ---- 1. 变量：不用写 int / double / char* ------=
 age = 18              # C: int age = 18;
-height = 1.75         # C: double height = 1.75;
+height = 1.755         # C: double height = 1.75;
 name = "张三"         # C: const char* name = "张三";  （Python 字符串是对象，能存中文）
 is_ok = True          # C: bool is_ok = true;   注意 Python 是 True/False（首字母大写）
 
